@@ -1,0 +1,24 @@
+"*":
+  "advanced-open-file":
+    createDirectories: true
+    createFileInstantly: true
+  "atom-beautify":
+    _analyticsUserId: "5d1235bc-99b2-4d46-a055-34777ea70705"
+    analytics: false
+    beautifyEntireFileOnSave: false
+  core: {}
+  editor:
+    fontSize: 21
+    invisibles: {}
+    softWrap: true
+  emmet: {}
+  "exception-reporting":
+    userId: "d6b75d48-0002-a686-3194-f3681453b0a1"
+  "file-icons": {}
+  fonts:
+    fontFamily: "Hack"
+    preview: "@@"
+  linter: {}
+  "tree-view": {}
+  welcome:
+    showOnStartup: false

@@ -1,0 +1,55 @@
+{
+  "name": "styles-highlighter",
+  "main": "./lib/styles-highlighter",
+  "version": "2.0.0",
+  "description": "A styles highlighter plugin for the Atom text editor. It highlights with a specific color all occurrences of the selected string in the current document.",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": [
+      "styles-highlighter:markFirstStyle",
+      "styles-highlighter:markSecondStyle",
+      "styles-highlighter:markThirdStyle",
+      "styles-highlighter:markFourthStyle",
+      "styles-highlighter:markFifthStyle",
+      "styles-highlighter:clearFirstStyle",
+      "styles-highlighter:clearSecondStyle",
+      "styles-highlighter:clearThirdStyle",
+      "styles-highlighter:clearFourthStyle",
+      "styles-highlighter:clearFifthStyle",
+      "styles-highlighter:clearAllStyles"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tuchkata/styles-highlighter.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "readme": "# styles-highlighter package\n\nA styles highlighter plugin for the Atom text editor. It highlights with a specific color all occurrences of the selected string in the current document.\n\n![A screenshot of your package](https://cloud.githubusercontent.com/assets/493395/12183016/c1a7ca68-b594-11e5-9497-5f405fc0d062.gif)\n\nTODO :\n- When these are ready, we should observe what we should do next.\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/Tuchkata/styles-highlighter/issues"
+  },
+  "homepage": "https://github.com/Tuchkata/styles-highlighter#readme",
+  "_id": "styles-highlighter@2.0.0",
+  "_shasum": "fabb750eec89384e3667ce2c99ae816e49b63341",
+  "_resolved": "file:../d-11607-82204-hdpxax/package.tgz",
+  "_from": "../d-11607-82204-hdpxax/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/styles-highlighter-view.coffee",
+        "lib/styles-highlighter.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}
